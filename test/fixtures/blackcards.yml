@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question: MyString
+  rating: MyString
+  category: MyString
+  pick: 1
+  player_won: MyString
+
+two:
+  question: MyString
+  rating: MyString
+  category: MyString
+  pick: 1
+  player_won: MyString

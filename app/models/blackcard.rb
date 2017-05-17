@@ -1,0 +1,2 @@
+class Blackcard < ApplicationRecord
+end
