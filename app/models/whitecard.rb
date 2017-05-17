@@ -1,0 +1,2 @@
+class Whitecard < ApplicationRecord
+end
