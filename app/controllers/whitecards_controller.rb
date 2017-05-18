@@ -5,12 +5,12 @@ class WhitecardsController < ApplicationController
   def index
     @whitecards = Whitecard.all
 
-    render json: @whitecards
+    render json: @whitecards.to_json(include: :blackcards)
   end
 
   # GET /whitecards/1
   def show
-    render json: @whitecard
+    render json: @whitecard.to_json(include: :blackcards)
   end
 
   # POST /whitecards

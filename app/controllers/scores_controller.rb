@@ -5,12 +5,12 @@ class ScoresController < ApplicationController
   def index
     @scores = Score.all
 
-    render json: @scores
+    render json: @scores.to_json(include: [:blackcard, :whitecard])
   end
 
   # GET /scores/1
   def show
-    render json: @score
+    render json: @score.to_json(include: [:blackcard, :whitecard])
   end
 
   # POST /scores
