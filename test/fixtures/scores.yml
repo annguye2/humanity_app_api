@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  blackcard: one
+  whitecard: one
+  score: 1
+
+two:
+  blackcard: two
+  whitecard: two
+  score: 1

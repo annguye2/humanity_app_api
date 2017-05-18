@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170517220224) do
+ActiveRecord::Schema.define(version: 20170518004904) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,26 @@ ActiveRecord::Schema.define(version: 20170517220224) do
     t.boolean  "is_dealt",   default: false
   end
 
+  create_table "players", force: :cascade do |t|
+    t.string   "name"
+    t.string   "password"
+    t.string   "email"
+    t.integer  "high_score"
+    t.string   "img"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "scores", force: :cascade do |t|
+    t.integer  "blackcard_id"
+    t.integer  "whitecard_id"
+    t.integer  "score"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["blackcard_id"], name: "index_scores_on_blackcard_id", using: :btree
+    t.index ["whitecard_id"], name: "index_scores_on_whitecard_id", using: :btree
+  end
+
   create_table "whitecards", force: :cascade do |t|
     t.string   "answer"
     t.string   "rating"
@@ -36,4 +56,6 @@ ActiveRecord::Schema.define(version: 20170517220224) do
     t.boolean  "is_discarded", default: false
   end
 
+  add_foreign_key "scores", "blackcards"
+  add_foreign_key "scores", "whitecards"
 end
