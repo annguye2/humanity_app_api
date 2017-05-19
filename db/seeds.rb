@@ -73,13 +73,13 @@ Blackcard.create([
 
 Whitecard.create([
   {
-    answer: "Coat hanger abortions."
+     answer: "Coat hanger abortions."
    },
   {
     answer:"Man meat."
   },
   {
-      answer:"Autocannibalism."
+    answer:"Autocannibalism."
   },
   {
      answer:"Vigorous jazz hands."
