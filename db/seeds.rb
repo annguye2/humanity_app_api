@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+#
 # Blackcard.create([
 #   {
 #     question: "Why can't I sleep at night?",
@@ -124,1280 +124,1280 @@
 #      answer:   "Former President George W. Bush."
 #   }
 # ])
-Score.create([
-{
- blackcard_id: 1,
-whitecard_id: 1,
-score: 7
- },
- {
- blackcard_id: 1,
-whitecard_id: 2,
-score: 4
- },
- {
- blackcard_id: 1,
-whitecard_id: 3,
-score: 2
- },
- {
- blackcard_id: 1,
-whitecard_id: 4,
-score: 0
- },
- {
- blackcard_id: 1,
-whitecard_id: 5,
-score: 9
- },
- {
- blackcard_id: 1,
-whitecard_id: 6,
-score: 5
- },
- {
- blackcard_id: 1,
-whitecard_id: 7,
-score: 0
- },
- {
- blackcard_id: 1,
-whitecard_id: 8,
-score: 6
- },
- {
- blackcard_id: 1,
-whitecard_id: 9,
-score: 8
- },
- {
- blackcard_id: 1,
-whitecard_id: 10,
-score: 8
- },
- {
- blackcard_id: 1,
-whitecard_id: 11,
-score: 5
- },
- {
- blackcard_id: 1,
-whitecard_id: 12,
-score: 6
- },
- {
- blackcard_id: 1,
-whitecard_id: 13,
-score: 5
- },
- {
- blackcard_id: 1,
-whitecard_id: 14,
-score: 8
- },
- {
- blackcard_id: 1,
-whitecard_id: 15,
-score: 3
- },
- {
- blackcard_id: 1,
-whitecard_id: 16,
-score: 5
- },
- {
- blackcard_id: 1,
-whitecard_id: 17,
-score: 4
- },
- {
- blackcard_id: 2,
-whitecard_id: 1,
-score: 2
- },
- {
- blackcard_id: 2,
-whitecard_id: 2,
-score: 9
- },
- {
- blackcard_id: 2,
-whitecard_id: 3,
-score: 1
- },
- {
- blackcard_id: 2,
-whitecard_id: 4,
-score: 1
- },
- {
- blackcard_id: 2,
-whitecard_id: 5,
-score: 0
- },
- {
- blackcard_id: 2,
-whitecard_id: 6,
-score: 6
- },
- {
- blackcard_id: 2,
-whitecard_id: 7,
-score: 7
- },
- {
- blackcard_id: 2,
-whitecard_id: 8,
-score: 0
- },
- {
- blackcard_id: 2,
-whitecard_id: 9,
-score: 5
- },
- {
- blackcard_id: 2,
-whitecard_id: 10,
-score: 7
- },
- {
- blackcard_id: 2,
-whitecard_id: 11,
-score: 2
- },
- {
- blackcard_id: 2,
-whitecard_id: 12,
-score: 6
- },
- {
- blackcard_id: 2,
-whitecard_id: 13,
-score: 5
- },
- {
- blackcard_id: 2,
-whitecard_id: 14,
-score: 7
- },
- {
- blackcard_id: 2,
-whitecard_id: 15,
-score: 7
- },
- {
- blackcard_id: 2,
-whitecard_id: 16,
-score: 2
- },
- {
- blackcard_id: 2,
-whitecard_id: 17,
-score: 0
- },
- {
- blackcard_id: 3,
-whitecard_id: 1,
-score: 6
- },
- {
- blackcard_id: 3,
-whitecard_id: 2,
-score: 8
- },
- {
- blackcard_id: 3,
-whitecard_id: 3,
-score: 0
- },
- {
- blackcard_id: 3,
-whitecard_id: 4,
-score: 0
- },
- {
- blackcard_id: 3,
-whitecard_id: 5,
-score: 9
- },
- {
- blackcard_id: 3,
-whitecard_id: 6,
-score: 2
- },
- {
- blackcard_id: 3,
-whitecard_id: 7,
-score: 9
- },
- {
- blackcard_id: 3,
-whitecard_id: 8,
-score: 7
- },
- {
- blackcard_id: 3,
-whitecard_id: 9,
-score: 2
- },
- {
- blackcard_id: 3,
-whitecard_id: 10,
-score: 8
- },
- {
- blackcard_id: 3,
-whitecard_id: 11,
-score: 3
- },
- {
- blackcard_id: 3,
-whitecard_id: 12,
-score: 8
- },
- {
- blackcard_id: 3,
-whitecard_id: 13,
-score: 9
- },
- {
- blackcard_id: 3,
-whitecard_id: 14,
-score: 1
- },
- {
- blackcard_id: 3,
-whitecard_id: 15,
-score: 4
- },
- {
- blackcard_id: 3,
-whitecard_id: 16,
-score: 4
- },
- {
- blackcard_id: 3,
-whitecard_id: 17,
-score: 9
- },
- {
- blackcard_id: 4,
-whitecard_id: 1,
-score: 8
- },
- {
- blackcard_id: 4,
-whitecard_id: 2,
-score: 0
- },
- {
- blackcard_id: 4,
-whitecard_id: 3,
-score: 2
- },
- {
- blackcard_id: 4,
-whitecard_id: 4,
-score: 3
- },
- {
- blackcard_id: 4,
-whitecard_id: 5,
-score: 5
- },
- {
- blackcard_id: 4,
-whitecard_id: 6,
-score: 0
- },
- {
- blackcard_id: 4,
-whitecard_id: 7,
-score: 7
- },
- {
- blackcard_id: 4,
-whitecard_id: 8,
-score: 5
- },
- {
- blackcard_id: 4,
-whitecard_id: 9,
-score: 0
- },
- {
- blackcard_id: 4,
-whitecard_id: 10,
-score: 9
- },
- {
- blackcard_id: 4,
-whitecard_id: 11,
-score: 5
- },
- {
- blackcard_id: 4,
-whitecard_id: 12,
-score: 1
- },
- {
- blackcard_id: 4,
-whitecard_id: 13,
-score: 7
- },
- {
- blackcard_id: 4,
-whitecard_id: 14,
-score: 9
- },
- {
- blackcard_id: 4,
-whitecard_id: 15,
-score: 3
- },
- {
- blackcard_id: 4,
-whitecard_id: 16,
-score: 5
- },
- {
- blackcard_id: 4,
-whitecard_id: 17,
-score: 0
- },
- {
- blackcard_id: 5,
-whitecard_id: 1,
-score: 4
- },
- {
- blackcard_id: 5,
-whitecard_id: 2,
-score: 0
- },
- {
- blackcard_id: 5,
-whitecard_id: 3,
-score: 2
- },
- {
- blackcard_id: 5,
-whitecard_id: 4,
-score: 9
- },
- {
- blackcard_id: 5,
-whitecard_id: 5,
-score: 6
- },
- {
- blackcard_id: 5,
-whitecard_id: 6,
-score: 4
- },
- {
- blackcard_id: 5,
-whitecard_id: 7,
-score: 5
- },
- {
- blackcard_id: 5,
-whitecard_id: 8,
-score: 2
- },
- {
- blackcard_id: 5,
-whitecard_id: 9,
-score: 1
- },
- {
- blackcard_id: 5,
-whitecard_id: 10,
-score: 0
- },
- {
- blackcard_id: 5,
-whitecard_id: 11,
-score: 4
- },
- {
- blackcard_id: 5,
-whitecard_id: 12,
-score: 3
- },
- {
- blackcard_id: 5,
-whitecard_id: 13,
-score: 6
- },
- {
- blackcard_id: 5,
-whitecard_id: 14,
-score: 4
- },
- {
- blackcard_id: 5,
-whitecard_id: 15,
-score: 2
- },
- {
- blackcard_id: 5,
-whitecard_id: 16,
-score: 1
- },
- {
- blackcard_id: 5,
-whitecard_id: 17,
-score: 4
- },
- {
- blackcard_id: 6,
-whitecard_id: 1,
-score: 1
- },
- {
- blackcard_id: 6,
-whitecard_id: 2,
-score: 5
- },
- {
- blackcard_id: 6,
-whitecard_id: 3,
-score: 7
- },
- {
- blackcard_id: 6,
-whitecard_id: 4,
-score: 5
- },
- {
- blackcard_id: 6,
-whitecard_id: 5,
-score: 7
- },
- {
- blackcard_id: 6,
-whitecard_id: 6,
-score: 9
- },
- {
- blackcard_id: 6,
-whitecard_id: 7,
-score: 0
- },
- {
- blackcard_id: 6,
-whitecard_id: 8,
-score: 7
- },
- {
- blackcard_id: 6,
-whitecard_id: 9,
-score: 2
- },
- {
- blackcard_id: 6,
-whitecard_id: 10,
-score: 2
- },
- {
- blackcard_id: 6,
-whitecard_id: 11,
-score: 1
- },
- {
- blackcard_id: 6,
-whitecard_id: 12,
-score: 7
- },
- {
- blackcard_id: 6,
-whitecard_id: 13,
-score: 9
- },
- {
- blackcard_id: 6,
-whitecard_id: 14,
-score: 0
- },
- {
- blackcard_id: 6,
-whitecard_id: 15,
-score: 0
- },
- {
- blackcard_id: 6,
-whitecard_id: 16,
-score: 5
- },
- {
- blackcard_id: 6,
-whitecard_id: 17,
-score: 8
- },
- {
- blackcard_id: 7,
-whitecard_id: 1,
-score: 6
- },
- {
- blackcard_id: 7,
-whitecard_id: 2,
-score: 9
- },
- {
- blackcard_id: 7,
-whitecard_id: 3,
-score: 9
- },
- {
- blackcard_id: 7,
-whitecard_id: 4,
-score: 7
- },
- {
- blackcard_id: 7,
-whitecard_id: 5,
-score: 4
- },
- {
- blackcard_id: 7,
-whitecard_id: 6,
-score: 8
- },
- {
- blackcard_id: 7,
-whitecard_id: 7,
-score: 6
- },
- {
- blackcard_id: 7,
-whitecard_id: 8,
-score: 6
- },
- {
- blackcard_id: 7,
-whitecard_id: 9,
-score: 5
- },
- {
- blackcard_id: 7,
-whitecard_id: 10,
-score: 4
- },
- {
- blackcard_id: 7,
-whitecard_id: 11,
-score: 8
- },
- {
- blackcard_id: 7,
-whitecard_id: 12,
-score: 8
- },
- {
- blackcard_id: 7,
-whitecard_id: 13,
-score: 0
- },
- {
- blackcard_id: 7,
-whitecard_id: 14,
-score: 8
- },
- {
- blackcard_id: 7,
-whitecard_id: 15,
-score: 5
- },
- {
- blackcard_id: 7,
-whitecard_id: 16,
-score: 1
- },
- {
- blackcard_id: 7,
-whitecard_id: 17,
-score: 4
- },
- {
- blackcard_id: 8,
-whitecard_id: 1,
-score: 3
- },
- {
- blackcard_id: 8,
-whitecard_id: 2,
-score: 4
- },
- {
- blackcard_id: 8,
-whitecard_id: 3,
-score: 5
- },
- {
- blackcard_id: 8,
-whitecard_id: 4,
-score: 7
- },
- {
- blackcard_id: 8,
-whitecard_id: 5,
-score: 0
- },
- {
- blackcard_id: 8,
-whitecard_id: 6,
-score: 5
- },
- {
- blackcard_id: 8,
-whitecard_id: 7,
-score: 3
- },
- {
- blackcard_id: 8,
-whitecard_id: 8,
-score: 2
- },
- {
- blackcard_id: 8,
-whitecard_id: 9,
-score: 9
- },
- {
- blackcard_id: 8,
-whitecard_id: 10,
-score: 0
- },
- {
- blackcard_id: 8,
-whitecard_id: 11,
-score: 1
- },
- {
- blackcard_id: 8,
-whitecard_id: 12,
-score: 8
- },
- {
- blackcard_id: 8,
-whitecard_id: 13,
-score: 1
- },
- {
- blackcard_id: 8,
-whitecard_id: 14,
-score: 5
- },
- {
- blackcard_id: 8,
-whitecard_id: 15,
-score: 2
- },
- {
- blackcard_id: 8,
-whitecard_id: 16,
-score: 0
- },
- {
- blackcard_id: 8,
-whitecard_id: 17,
-score: 2
- },
- {
- blackcard_id: 9,
-whitecard_id: 1,
-score: 6
- },
- {
- blackcard_id: 9,
-whitecard_id: 2,
-score: 3
- },
- {
- blackcard_id: 9,
-whitecard_id: 3,
-score: 1
- },
- {
- blackcard_id: 9,
-whitecard_id: 4,
-score: 1
- },
- {
- blackcard_id: 9,
-whitecard_id: 5,
-score: 4
- },
- {
- blackcard_id: 9,
-whitecard_id: 6,
-score: 7
- },
- {
- blackcard_id: 9,
-whitecard_id: 7,
-score: 6
- },
- {
- blackcard_id: 9,
-whitecard_id: 8,
-score: 2
- },
- {
- blackcard_id: 9,
-whitecard_id: 9,
-score: 2
- },
- {
- blackcard_id: 9,
-whitecard_id: 10,
-score: 2
- },
- {
- blackcard_id: 9,
-whitecard_id: 11,
-score: 9
- },
- {
- blackcard_id: 9,
-whitecard_id: 12,
-score: 0
- },
- {
- blackcard_id: 9,
-whitecard_id: 13,
-score: 8
- },
- {
- blackcard_id: 9,
-whitecard_id: 14,
-score: 0
- },
- {
- blackcard_id: 9,
-whitecard_id: 15,
-score: 5
- },
- {
- blackcard_id: 9,
-whitecard_id: 16,
-score: 8
- },
- {
- blackcard_id: 9,
-whitecard_id: 17,
-score: 9
- },
- {
- blackcard_id: 10,
-whitecard_id: 1,
-score: 8
- },
- {
- blackcard_id: 10,
-whitecard_id: 2,
-score: 0
- },
- {
- blackcard_id: 10,
-whitecard_id: 3,
-score: 4
- },
- {
- blackcard_id: 10,
-whitecard_id: 4,
-score: 8
- },
- {
- blackcard_id: 10,
-whitecard_id: 5,
-score: 8
- },
- {
- blackcard_id: 10,
-whitecard_id: 6,
-score: 3
- },
- {
- blackcard_id: 10,
-whitecard_id: 7,
-score: 2
- },
- {
- blackcard_id: 10,
-whitecard_id: 8,
-score: 7
- },
- {
- blackcard_id: 10,
-whitecard_id: 9,
-score: 9
- },
- {
- blackcard_id: 10,
-whitecard_id: 10,
-score: 1
- },
- {
- blackcard_id: 10,
-whitecard_id: 11,
-score: 7
- },
- {
- blackcard_id: 10,
-whitecard_id: 12,
-score: 9
- },
- {
- blackcard_id: 10,
-whitecard_id: 13,
-score: 6
- },
- {
- blackcard_id: 10,
-whitecard_id: 14,
-score: 2
- },
- {
- blackcard_id: 10,
-whitecard_id: 15,
-score: 0
- },
- {
- blackcard_id: 10,
-whitecard_id: 16,
-score: 9
- },
- {
- blackcard_id: 10,
-whitecard_id: 17,
-score: 4
- },
- {
- blackcard_id: 11,
-whitecard_id: 1,
-score: 5
- },
- {
- blackcard_id: 11,
-whitecard_id: 2,
-score: 5
- },
- {
- blackcard_id: 11,
-whitecard_id: 3,
-score: 7
- },
- {
- blackcard_id: 11,
-whitecard_id: 4,
-score: 3
- },
- {
- blackcard_id: 11,
-whitecard_id: 5,
-score: 4
- },
- {
- blackcard_id: 11,
-whitecard_id: 6,
-score: 6
- },
- {
- blackcard_id: 11,
-whitecard_id: 7,
-score: 6
- },
- {
- blackcard_id: 11,
-whitecard_id: 8,
-score: 5
- },
- {
- blackcard_id: 11,
-whitecard_id: 9,
-score: 6
- },
- {
- blackcard_id: 11,
-whitecard_id: 10,
-score: 5
- },
- {
- blackcard_id: 11,
-whitecard_id: 11,
-score: 3
- },
- {
- blackcard_id: 11,
-whitecard_id: 12,
-score: 7
- },
- {
- blackcard_id: 11,
-whitecard_id: 13,
-score: 1
- },
- {
- blackcard_id: 11,
-whitecard_id: 14,
-score: 2
- },
- {
- blackcard_id: 11,
-whitecard_id: 15,
-score: 0
- },
- {
- blackcard_id: 11,
-whitecard_id: 16,
-score: 0
- },
- {
- blackcard_id: 11,
-whitecard_id: 17,
-score: 5
- },
- {
- blackcard_id: 12,
-whitecard_id: 1,
-score: 6
- },
- {
- blackcard_id: 12,
-whitecard_id: 2,
-score: 1
- },
- {
- blackcard_id: 12,
-whitecard_id: 3,
-score: 8
- },
- {
- blackcard_id: 12,
-whitecard_id: 4,
-score: 0
- },
- {
- blackcard_id: 12,
-whitecard_id: 5,
-score: 6
- },
- {
- blackcard_id: 12,
-whitecard_id: 6,
-score: 8
- },
- {
- blackcard_id: 12,
-whitecard_id: 7,
-score: 7
- },
- {
- blackcard_id: 12,
-whitecard_id: 8,
-score: 0
- },
- {
- blackcard_id: 12,
-whitecard_id: 9,
-score: 4
- },
- {
- blackcard_id: 12,
-whitecard_id: 10,
-score: 6
- },
- {
- blackcard_id: 12,
-whitecard_id: 11,
-score: 2
- },
- {
- blackcard_id: 12,
-whitecard_id: 12,
-score: 3
- },
- {
- blackcard_id: 12,
-whitecard_id: 13,
-score: 3
- },
- {
- blackcard_id: 12,
-whitecard_id: 14,
-score: 6
- },
- {
- blackcard_id: 12,
-whitecard_id: 15,
-score: 3
- },
- {
- blackcard_id: 12,
-whitecard_id: 16,
-score: 7
- },
- {
- blackcard_id: 12,
-whitecard_id: 17,
-score: 4
- },
- {
- blackcard_id: 13,
-whitecard_id: 1,
-score: 8
- },
- {
- blackcard_id: 13,
-whitecard_id: 2,
-score: 5
- },
- {
- blackcard_id: 13,
-whitecard_id: 3,
-score: 2
- },
- {
- blackcard_id: 13,
-whitecard_id: 4,
-score: 2
- },
- {
- blackcard_id: 13,
-whitecard_id: 5,
-score: 6
- },
- {
- blackcard_id: 13,
-whitecard_id: 6,
-score: 3
- },
- {
- blackcard_id: 13,
-whitecard_id: 7,
-score: 2
- },
- {
- blackcard_id: 13,
-whitecard_id: 8,
-score: 8
- },
- {
- blackcard_id: 13,
-whitecard_id: 9,
-score: 3
- },
- {
- blackcard_id: 13,
-whitecard_id: 10,
-score: 6
- },
- {
- blackcard_id: 13,
-whitecard_id: 11,
-score: 3
- },
- {
- blackcard_id: 13,
-whitecard_id: 12,
-score: 5
- },
- {
- blackcard_id: 13,
-whitecard_id: 13,
-score: 7
- },
- {
- blackcard_id: 13,
-whitecard_id: 14,
-score: 3
- },
- {
- blackcard_id: 13,
-whitecard_id: 15,
-score: 0
- },
- {
- blackcard_id: 13,
-whitecard_id: 16,
-score: 9
- },
- {
- blackcard_id: 13,
-whitecard_id: 17,
-score: 1
- },
- {
- blackcard_id: 14,
-whitecard_id: 1,
-score: 4
- },
- {
- blackcard_id: 14,
-whitecard_id: 2,
-score: 1
- },
- {
- blackcard_id: 14,
-whitecard_id: 3,
-score: 5
- },
- {
- blackcard_id: 14,
-whitecard_id: 4,
-score: 1
- },
- {
- blackcard_id: 14,
-whitecard_id: 5,
-score: 6
- },
- {
- blackcard_id: 14,
-whitecard_id: 6,
-score: 3
- },
- {
- blackcard_id: 14,
-whitecard_id: 7,
-score: 7
- },
- {
- blackcard_id: 14,
-whitecard_id: 8,
-score: 4
- },
- {
- blackcard_id: 14,
-whitecard_id: 9,
-score: 9
- },
- {
- blackcard_id: 14,
-whitecard_id: 10,
-score: 6
- },
- {
- blackcard_id: 14,
-whitecard_id: 11,
-score: 4
- },
- {
- blackcard_id: 14,
-whitecard_id: 12,
-score: 4
- },
- {
- blackcard_id: 14,
-whitecard_id: 13,
-score: 1
- },
- {
- blackcard_id: 14,
-whitecard_id: 14,
-score: 5
- },
- {
- blackcard_id: 14,
-whitecard_id: 15,
-score: 6
- },
- {
- blackcard_id: 14,
-whitecard_id: 16,
-score: 2
- },
- {
- blackcard_id: 14,
-whitecard_id: 17,
-score: 3
- },
- {
- blackcard_id: 15,
-whitecard_id: 1,
-score: 0
- },
- {
- blackcard_id: 15,
-whitecard_id: 2,
-score: 7
- },
- {
- blackcard_id: 15,
-whitecard_id: 3,
-score: 7
- },
- {
- blackcard_id: 15,
-whitecard_id: 4,
-score: 7
- },
- {
- blackcard_id: 15,
-whitecard_id: 5,
-score: 1
- },
- {
- blackcard_id: 15,
-whitecard_id: 6,
-score: 9
- },
- {
- blackcard_id: 15,
-whitecard_id: 7,
-score: 4
- },
- {
- blackcard_id: 15,
-whitecard_id: 8,
-score: 4
- },
- {
- blackcard_id: 15,
-whitecard_id: 9,
-score: 7
- },
- {
- blackcard_id: 15,
-whitecard_id: 10,
-score: 1
- },
- {
- blackcard_id: 15,
-whitecard_id: 11,
-score: 9
- },
- {
- blackcard_id: 15,
-whitecard_id: 12,
-score: 0
- },
- {
- blackcard_id: 15,
-whitecard_id: 13,
-score: 4
- },
- {
- blackcard_id: 15,
-whitecard_id: 14,
-score: 9
- },
- {
- blackcard_id: 15,
-whitecard_id: 15,
-score: 6
- },
- {
- blackcard_id: 15,
-whitecard_id: 16,
-score: 7
- },
- {
- blackcard_id: 15,
-whitecard_id: 17,
-score: 0
- }
- ])
+# Score.create([
+# {
+#  blackcard_id: 1,
+# whitecard_id: 1,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 2,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 3,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 4,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 5,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 6,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 7,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 8,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 9,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 10,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 11,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 12,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 13,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 14,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 15,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 16,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 1,
+# whitecard_id: 17,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 1,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 2,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 3,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 4,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 5,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 6,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 7,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 8,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 9,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 10,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 11,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 12,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 13,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 14,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 15,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 16,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 2,
+# whitecard_id: 17,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 1,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 2,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 3,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 4,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 5,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 6,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 7,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 8,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 9,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 10,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 11,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 12,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 13,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 14,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 15,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 16,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 3,
+# whitecard_id: 17,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 1,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 2,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 3,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 4,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 5,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 6,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 7,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 8,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 9,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 10,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 11,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 12,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 13,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 14,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 15,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 16,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 4,
+# whitecard_id: 17,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 1,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 2,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 3,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 4,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 5,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 6,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 7,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 8,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 9,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 10,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 11,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 12,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 13,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 14,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 15,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 16,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 5,
+# whitecard_id: 17,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 1,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 2,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 3,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 4,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 5,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 6,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 7,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 8,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 9,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 10,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 11,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 12,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 13,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 14,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 15,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 16,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 6,
+# whitecard_id: 17,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 1,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 2,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 3,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 4,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 5,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 6,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 7,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 8,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 9,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 10,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 11,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 12,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 13,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 14,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 15,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 16,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 7,
+# whitecard_id: 17,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 1,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 2,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 3,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 4,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 5,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 6,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 7,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 8,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 9,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 10,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 11,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 12,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 13,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 14,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 15,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 16,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 8,
+# whitecard_id: 17,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 1,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 2,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 3,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 4,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 5,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 6,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 7,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 8,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 9,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 10,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 11,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 12,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 13,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 14,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 15,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 16,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 9,
+# whitecard_id: 17,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 1,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 2,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 3,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 4,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 5,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 6,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 7,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 8,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 9,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 10,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 11,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 12,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 13,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 14,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 15,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 16,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 10,
+# whitecard_id: 17,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 1,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 2,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 3,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 4,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 5,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 6,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 7,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 8,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 9,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 10,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 11,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 12,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 13,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 14,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 15,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 16,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 11,
+# whitecard_id: 17,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 1,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 2,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 3,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 4,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 5,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 6,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 7,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 8,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 9,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 10,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 11,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 12,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 13,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 14,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 15,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 16,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 12,
+# whitecard_id: 17,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 1,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 2,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 3,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 4,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 5,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 6,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 7,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 8,
+# score: 8
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 9,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 10,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 11,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 12,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 13,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 14,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 15,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 16,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 13,
+# whitecard_id: 17,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 1,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 2,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 3,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 4,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 5,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 6,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 7,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 8,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 9,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 10,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 11,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 12,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 13,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 14,
+# score: 5
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 15,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 16,
+# score: 2
+#  },
+#  {
+#  blackcard_id: 14,
+# whitecard_id: 17,
+# score: 3
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 1,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 2,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 3,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 4,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 5,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 6,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 7,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 8,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 9,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 10,
+# score: 1
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 11,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 12,
+# score: 0
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 13,
+# score: 4
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 14,
+# score: 9
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 15,
+# score: 6
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 16,
+# score: 7
+#  },
+#  {
+#  blackcard_id: 15,
+# whitecard_id: 17,
+# score: 0
+#  }
+#  ])

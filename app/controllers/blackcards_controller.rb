@@ -10,7 +10,7 @@ class BlackcardsController < ApplicationController
 
   # GET /blackcards/1
   def show
-    render json: @blackcard.to_json(include: :whitecards)
+    render json: @blackcard.to_json(include: [:whitecards, :scores])
   end
 
   # POST /blackcards
