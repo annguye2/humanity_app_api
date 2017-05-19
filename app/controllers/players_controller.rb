@@ -59,6 +59,9 @@ end
     # Only allow a trusted parameter "white list" through.
     def player_params
       params.require(:player).permit(:name, :password, :email, :img, :high_score)
+# <<<<<<< HEAD
+#
+# =======
     end
 
     def create_token(id, username)
@@ -75,5 +78,6 @@ end
           username: username
         }
       }
+# >>>>>>> 7bc6f9c3dbe2b84a43928302b0b45d9d6561b8f0
     end
 end
