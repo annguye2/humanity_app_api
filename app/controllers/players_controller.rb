@@ -63,6 +63,7 @@ end
     def player_params
 
       params.require(:player).permit(:name, :password, :email, :img, :high_score, :username)
+
     end
 
     def create_token(id, username)
