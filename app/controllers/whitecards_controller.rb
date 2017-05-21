@@ -24,6 +24,7 @@ class WhitecardsController < ApplicationController
     end
   end
 
+
   # PATCH/PUT /whitecards/1
   def update
     if @whitecard.update(whitecard_params)
