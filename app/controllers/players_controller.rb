@@ -18,9 +18,12 @@ class PlayersController < ApplicationController
   # POST /players
   def create
     @player = Player.new(player_params)
-
+    #testing
+    puts "creating new player, player_params: "
+    puts player_params
+    #end
     if @player.save
-      render json: @player, status: :created#, location: @player
+      render json: @player, status: :created, location: @player
     else
       render json: @player.errors, status: :unprocessable_entity
     end
@@ -58,7 +61,7 @@ end
 
     # Only allow a trusted parameter "white list" through.
     def player_params
-      params.require(:player).permit(:name, :password, :email, :img, :high_score)
+      params.require(:player).permit(:name, :password, :email, :img, :high_score, :username)
 # <<<<<<< HEAD
 #
 # =======
