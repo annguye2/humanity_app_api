@@ -72,56 +72,56 @@ Blackcard.create([
 
 Whitecard.create([
   {
-    answer: "Coat hanger abortions."
+    answer: "Thom's neighbor"
    },
   {
-    answer:"Man meat."
+    answer:"Karolin's cat"
   },
   {
-      answer:"Autocannibalism."
+      answer:"Kristyn's stylesheet"
   },
   {
-     answer:"Vigorous jazz hands."
+     answer:"Matt's website"
   },
 
   {
-     answer:"Flightless birds."
+     answer:"angular"
   },
   {
-     answer:"Pictures of boobs."
+     answer:"JSON web tokens"
   },
   {
-     answer:"Doing the right thing."
+     answer:"Rick Astley"
   },
   {
-     answer:"The violation of our most basic human rights."
+     answer:"git hub branches"
   },
   {
-     answer:"Viagra&reg;."
+     answer:"nested loops"
   },
   {
-     answer:"Self-loathing."
+     answer:"pokemon"
   },
   {
-     answer:  "Spectacular abs."
+     answer:  "Mordor"
   },
   {
-     answer:  "A balanced breakfast."
+     answer:  "Slackbot"
   },
   {
-     answer:  "Roofies."
+     answer:  "flexbox"
   },
   {
-     answer:   "Concealing a boner."
+     answer:   "WDIR homework"
   },
   {
-     answer:   "Amputees."
+     answer:   "Ruby on Rails"
   },
   {
-     answer:    "The Big Bang."
+     answer:    "API"
   },
   {
-     answer:   "Former President George W. Bush."
+     answer:   "Grace Hopper"
   }
 ])
 Score.create([
